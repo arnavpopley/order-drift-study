@@ -12,6 +12,7 @@ ROOT = Path(__file__).parent
 STAGES = [
     # (module, output that proves the stage completed)
     ("src.scrape_nse", "data/raw/nse_announcements.csv"),
+    ("src.prefilter", "data/processed/candidates.csv"),
     ("src.classify", "data/processed/classified.csv"),
     ("src.build_events", "data/processed/events.csv"),
     ("src.build_prices", "data/processed/prices.parquet"),
