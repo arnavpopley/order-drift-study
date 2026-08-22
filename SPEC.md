@@ -120,3 +120,10 @@ coverage, single-regime sample.
   (a) verify site loads in local browser → if yes use Playwright real-browser
   session; (b) if browser also fails → India-IP route (VPN or cheap IN VPS);
   (c) NSE archive retry as alternate host.
+- 2026-08-21 — VPN session (note: exits via Singapore datacenter IP). BSE API
+  still blocked; **NSE promoted to primary announcement source** — new endpoint
+  `/api/corporate-announcements?index=equities|sme` verified working with
+  month-sized chunks, no pagination cap, full depth back to ≥Jan 2020. Fields
+  include symbol, timestamp, category desc, first-page text, PDF URL. Scraper:
+  `src/scrape_nse.py` (curl_cffi chrome impersonation + cookie warmup). BSE
+  kept as fallback only.
