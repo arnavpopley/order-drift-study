@@ -20,6 +20,7 @@ import time
 from pathlib import Path
 
 import pandas as pd
+from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
@@ -27,7 +28,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CANDIDATES = ROOT / "data" / "processed" / "candidates.csv"
 JSONL = ROOT / "data" / "processed" / "classified.jsonl"
 OUT = ROOT / "data" / "processed" / "classified.csv"
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-3.6-flash"
 
 SYSTEM = """You classify Indian corporate stock-exchange announcements for a research study.
 
@@ -123,6 +124,9 @@ def main() -> None:
     args = ap.parse_args()
 
     key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+    if not key:
+        load_dotenv(ROOT / ".env")
+        key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
     if not key:
         raise SystemExit("GEMINI_API_KEY missing — put it in .env at repo root")
     client = genai.Client(api_key=key)
