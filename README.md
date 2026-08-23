@@ -10,7 +10,7 @@ notes there.
 
 ```bash
 uv sync
-cp .env.example .env   # add ANTHROPIC_API_KEY for classification day
+cp .env.example .env   # add GEMINI_API_KEY (free, aistudio.google.com) for classification day
 python run_all.py      # rebuilds everything in results/
 ```
 

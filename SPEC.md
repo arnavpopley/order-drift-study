@@ -127,3 +127,6 @@ coverage, single-regime sample.
   include symbol, timestamp, category desc, first-page text, PDF URL. Scraper:
   `src/scrape_nse.py` (curl_cffi chrome impersonation + cookie warmup). BSE
   kept as fallback only.
+- 2026-08-21 — Classifier engine switched from Anthropic to **Gemini
+  (gemini-2.5-flash, free tier)**: batches of 200, ~115 calls total, JSON-mode
+  output, same prompt contract and audit plan. Hand-audit n=100 unchanged.
