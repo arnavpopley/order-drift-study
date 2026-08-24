@@ -40,7 +40,14 @@ def fetch_day(session: creq.Session, d: date) -> pd.DataFrame | None:
         return None
     m = m[["Index Name", "Index Date", "Closing Index Value"]].copy()
     m.columns = ["index_name", "index_date", "close"]
-    m["index_date"] = pd.to_datetime(m["index_date"], format="%d-%b-%Y").dt.date.astype(str)
+    for fmt in ("%d-%b-%Y", "%d-%m-%Y", "%Y-%m-%d"):
+        try:
+            m["index_date"] = pd.to_datetime(m["index_date"], format=fmt).dt.date.astype(str)
+            break
+        except (ValueError, TypeError):
+            continue
+    else:
+        raise ValueError(f"unparseable dates: {m['index_date'].tolist()}")
     return m
 
 
