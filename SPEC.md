@@ -18,8 +18,10 @@ initial reaction?
 ## Sample
 
 - **Period:** Jan 2021 – Jun 2026.
-- **Universe:** BSE/NSE small & midcaps, market cap ₹500 cr – ₹25,000 cr
-  (prior-day mcap).
+- **Universe:** BSE/NSE listed equities, prior-day market cap ₹500 cr – ₹25,000 cr.
+  Per the AMFI semi-annual categorisation (Jul–Dec 2026 cut-off: smallcap <
+  ₹33,433 cr), this band lies entirely within the AMFI smallcap segment; the
+  study is therefore framed as a smallcap study, not "small/midcap".
 - **Materiality:** order value ≥ 10% of prior-day market cap.
 - **Exclusions:**
   - events within ±2 days of earnings announcements;
@@ -30,9 +32,12 @@ initial reaction?
 
 ## Abnormal return models
 
-1. **PRIMARY — market-adjusted:** AR = stock return − NIFTY Midcap 150 return.
+1. **PRIMARY — market-adjusted:** AR = stock return − NIFTY Smallcap 250 return.
 2. Market model (alpha/beta estimated over [−130, −11]).
 3. IIMA four-factor model.
+
+Robustness: primary spec rerun with NIFTY Midcap 150 as the market proxy
+(size-mismatch check; see amendment dated 2026-08-21).
 
 ## Test specifications
 
@@ -76,7 +81,9 @@ factors; Newey-West alpha (20 lags). Report gross alpha and net of 50 bps and
   as fallback/cross-source; yfinance `.NS` as tertiary. Validation rule: any
   ticker where two sources disagree on a close is investigated or dropped.
   Cross-check ≥15 random tickers across two independent sources before analysis.
-- **Index:** NIFTY Midcap 150 daily series.
+- **Index:** NIFTY Smallcap 250 daily series (primary); NIFTY Midcap 150 for
+  the robustness variant. Source: niftyindices.com historical closes or NSE
+  daily all-index file.
 - **Market caps / corporate actions:** prior-day mcap from price × shares out
   (yfinance/NSE); earnings dates from announcement archive; splits/bonuses from
   NSE corporate actions file.
@@ -130,3 +137,9 @@ coverage, single-regime sample.
 - 2026-08-21 — Classifier engine switched from Anthropic to **Gemini
   (gemini-2.5-flash, free tier)**: batches of 200, ~115 calls total, JSON-mode
   output, same prompt contract and audit plan. Hand-audit n=100 unchanged.
+- 2026-08-21 — Universe relabeled **AMFI smallcap** (Jul–Dec 2026 cut-off:
+  smallcap < ₹33,433 cr ⇒ entire ₹500–25,000 cr band is smallcap; no midcaps
+  in sample). Primary benchmark switched NIFTY Midcap 150 → **NIFTY Smallcap
+  250** to size-match the universe; Midcap-150 variant demoted to robustness.
+  Amended before any returns were computed. Model name in classifier updated
+  gemini-2.5-flash → gemini-3.6-flash (old model retired for new API keys).
