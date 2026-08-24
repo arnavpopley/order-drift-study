@@ -1,0 +1,24 @@
+115 batches total, 77 remaining
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+[1/77] batch 4200: ok (48 wins)
+[2/77] batch 4400: ok (45 wins)
+[3/77] batch 4600: ok (47 wins)
+[4/77] batch 4800: ok (47 wins)
+batch 5000 attempt 1 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 15s
+batch 5000 attempt 2 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 30s
+batch 5000 attempt 3 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 60s
+batch 5000 attempt 4 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 90s
+batch 5000 attempt 5 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 90s
+batch 5200 attempt 1 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 15s
+[6/77] batch 5200: ok (72 wins)
+[7/77] batch 5400: ok (60 wins)
+batch 5600 attempt 1 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 15s
+batch 5600 attempt 2 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 30s
+batch 5600 attempt 3 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 60s
+batch 5600 attempt 4 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 90s
+batch 5600 attempt 5 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 90s
+batch 5800 attempt 1 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 15s
+batch 5800 attempt 2 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 30s
+batch 5800 attempt 3 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 60s
+batch 5800 attempt 4 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 90s
+batch 5800 attempt 5 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 90s
