@@ -20,7 +20,8 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "raw" / "index_closes.csv"
 WANT = {"nifty smallcap 250", "nifty midcap 150"}
 URL = "https://nsearchives.nseindia.com/content/indices/ind_close_all_{}.csv"
-SLEEP_S = 0.6
+SLEEP_S = 2.5
+MAX_CONSEC_FAILS = 8
 
 
 def load_done() -> set[str]:
@@ -63,7 +64,7 @@ def main() -> None:
     end = date.fromisoformat(args.end)
     done = load_done()
 
-    d, n_new = start, 0
+    d, n_new, fail_streak = start, 0, 0
     while d <= end:
         ds = d.isoformat()
         if ds not in done:
@@ -72,8 +73,15 @@ def main() -> None:
                 if rows is not None:
                     rows.to_csv(OUT, mode="a", header=not OUT.exists(), index=False)
                     n_new += len(rows)
+                fail_streak = 0
             except Exception as e:
+                fail_streak += 1
                 print(f"{ds}: error {str(e)[:80]}")
+                if fail_streak >= MAX_CONSEC_FAILS:
+                    wait = min(60 * fail_streak, 600)
+                    print(f"{fail_streak} consecutive failures; cooling down {wait}s, new session")
+                    time.sleep(wait)
+                    s = creq.Session(impersonate="chrome")
             time.sleep(SLEEP_S)
         d += timedelta(days=1)
 

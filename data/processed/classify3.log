@@ -1,0 +1,11 @@
+115 batches total, 71 remaining
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+[1/71] batch 5000: ok (35 wins)
+[2/71] batch 5600: ok (63 wins)
+[3/71] batch 5800: ok (78 wins)
+[4/71] batch 6000: ok (79 wins)
+[5/71] batch 6200: ok (76 wins)
+[6/71] batch 6400: ok (66 wins)
+[7/71] batch 6600: ok (63 wins)
+[8/71] batch 6800: ok (63 wins)
+[9/71] batch 7000: ok (90 wins)
