@@ -23,3 +23,12 @@ batch 8000 attempt 1 failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message':
 [20/71] batch 9400: ok (71 wins)
 batch 9600 attempt 1 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 15s
 batch 9600 attempt 2 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 30s
+[21/71] batch 9600: ok (83 wins)
+batch 9800 attempt 1 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 15s
+batch 9800 attempt 2 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 30s
+batch 9800 attempt 3 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 60s
+batch 9800 attempt 4 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 90s
+batch 9800 attempt 5 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 90s
+batch 10000 attempt 1 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 15s
+batch 10000 attempt 2 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 30s
+batch 10000 attempt 3 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 60s

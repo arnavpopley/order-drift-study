@@ -1,0 +1,306 @@
+2335 symbols in 24 chunks, 24 to fetch
+$AIFL.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ACLGATI.NS"}}}
+$ACLGATI.NS: possibly delisted; no timezone found
+$3IINFOTECH.NS: possibly delisted; no timezone found
+$ABMINTLTD.NS: possibly delisted; no timezone found
+$ACTIVEINFR.NS: possibly delisted; no timezone found
+$AGARWALTUF.NS: possibly delisted; no timezone found
+$AESTHETIK.NS: possibly delisted; no timezone found
+$ABHISHEK.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$AKANKSHA.NS: possibly delisted; no timezone found
+$ABHAPOWER.NS: possibly delisted; no timezone found
+$ADDICTIVE.NS: possibly delisted; no timezone found
+$AJRINFRA.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$AERON.NS: possibly delisted; no timezone found
+
+13 Failed downloads:
+['AIFL.NS', 'ABHISHEK.NS', 'AJRINFRA.NS']: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+['ACLGATI.NS', '3IINFOTECH.NS', 'ABMINTLTD.NS', 'ACTIVEINFR.NS', 'AGARWALTUF.NS', 'AESTHETIK.NS', 'AKANKSHA.NS', 'ABHAPOWER.NS', 'ADDICTIVE.NS', 'AERON.NS']: possibly delisted; no timezone found
+[1/24] chunk 0: +101442 rows, 13 empty
+$ASHWINI.NS: possibly delisted; no timezone found
+$ARCIIL.NS: possibly delisted; no timezone found
+$ASHALOG.NS: possibly delisted; no timezone found
+$ARVINDPORT.NS: possibly delisted; no timezone found
+$ARUNAYA.NS: possibly delisted; no timezone found
+$APSISAERO.NS: possibly delisted; no timezone found
+$APRAMEYA.NS: possibly delisted; no timezone found
+$ANDHRACEMT.NS: possibly delisted; no timezone found
+$ASIL.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$APEXECO.NS: possibly delisted; no timezone found
+$ARHAM.NS: possibly delisted; no timezone found
+$ANONDITA.NS: possibly delisted; no timezone found
+
+12 Failed downloads:
+['ASHWINI.NS', 'ARCIIL.NS', 'ASHALOG.NS', 'ARVINDPORT.NS', 'ARUNAYA.NS', 'APSISAERO.NS', 'APRAMEYA.NS', 'ANDHRACEMT.NS', 'APEXECO.NS', 'ARHAM.NS', 'ANONDITA.NS']: possibly delisted; no timezone found
+['ASIL.NS']: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+[2/24] chunk 100: +111860 rows, 12 empty
+$BANSAL.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$AUSL.NS: possibly delisted; no timezone found
+$BALLARPUR.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$BHADORA.NS: possibly delisted; no timezone found
+$AVANA.NS: possibly delisted; no timezone found
+$AUTORIDFIN.NS: possibly delisted; no timezone found
+$AUTOLITIND.NS: possibly delisted; no timezone found
+$BARTRONICS.NS: possibly delisted; no timezone found
+
+8 Failed downloads:
+['BANSAL.NS', 'BALLARPUR.NS']: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+['AUSL.NS', 'BHADORA.NS', 'AVANA.NS', 'AUTORIDFIN.NS', 'AUTOLITIND.NS', 'BARTRONICS.NS']: possibly delisted; no timezone found
+[3/24] chunk 200: +113797 rows, 8 empty
+$BILPOWER.NS: possibly delisted; no timezone found
+$BIKEWO.NS: possibly delisted; no timezone found
+$CASTEXTECH.NS: possibly delisted; no timezone found
+$BSLIMITED.NS: possibly delisted; no timezone found
+$CHANDAN.NS: possibly delisted; no timezone found
+$BOHRA.NS: possibly delisted; no timezone found
+$BLUEBLENDS.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$CHAMUNDA.NS: possibly delisted; no timezone found
+$BULKCORP.NS: possibly delisted; no timezone found
+$C2C.NS: possibly delisted; no timezone found
+$BRANDMAN.NS: possibly delisted; no timezone found
+$BRFL.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$CANDC.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+
+13 Failed downloads:
+['BILPOWER.NS', 'BIKEWO.NS', 'CASTEXTECH.NS', 'BSLIMITED.NS', 'CHANDAN.NS', 'BOHRA.NS', 'CHAMUNDA.NS', 'BULKCORP.NS', 'C2C.NS', 'BRANDMAN.NS']: possibly delisted; no timezone found
+['BLUEBLENDS.NS', 'BRFL.NS', 'CANDC.NS']: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+[4/24] chunk 300: +111185 rows, 13 empty
+$CUDML.NS: possibly delisted; no timezone found
+$CHROMATIC.NS: possibly delisted; no timezone found
+$DCCL.NS: possibly delisted; no timezone found
+$CKFSL.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$CURIS.NS: possibly delisted; no timezone found
+$CKPLEISURE.NS: possibly delisted; no timezone found
+$CLASSICEIL.NS: possibly delisted; no timezone found
+$CIGNITITEC.NS: possibly delisted; no price data found  (1d 2020-06-01 -> 2026-07-01)
+$COX&KINGS.NS: possibly delisted; no timezone found
+$CHETANA.NS: possibly delisted; no timezone found
+$DANISH.NS: possibly delisted; no timezone found
+$CKPPRODUCT.NS: possibly delisted; no timezone found
+$DEEPENR.NS: possibly delisted; no timezone found
+$CSSL.NS: possibly delisted; no timezone found
+
+14 Failed downloads:
+['CUDML.NS', 'CHROMATIC.NS', 'DCCL.NS', 'CURIS.NS', 'CKPLEISURE.NS', 'CLASSICEIL.NS', 'COX&KINGS.NS', 'CHETANA.NS', 'DANISH.NS', 'CKPPRODUCT.NS', 'DEEPENR.NS', 'CSSL.NS']: possibly delisted; no timezone found
+['CKFSL.NS']: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+['CIGNITITEC.NS']: possibly delisted; no price data found  (1d 2020-06-01 -> 2026-07-01)
+[5/24] chunk 400: +106751 rows, 14 empty
+$EEPL.NS: possibly delisted; no timezone found
+$DIRL.NS: possibly delisted; no timezone found
+$DIAPOWER.NS: possibly delisted; no timezone found
+$DHANI.NS: possibly delisted; no timezone found
+$DELTIC.NS: possibly delisted; no timezone found
+$E2ERAIL.NS: possibly delisted; no timezone found
+$DIVYADHAN.NS: possibly delisted; no timezone found
+$DHFL.NS: possibly delisted; no timezone found
+$DHANSA.NS: possibly delisted; no timezone found
+$DHARARAIL.NS: possibly delisted; no timezone found
+$DQE.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$DOLPHINOFF.NS: possibly delisted; no timezone found
+$DFMFOODS.NS: possibly delisted; no timezone found
+$DHANILOANS.NS: possibly delisted; no timezone found
+$DHARIWAL.NS: possibly delisted; no timezone found
+$DHARSUGAR.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+
+16 Failed downloads:
+['EEPL.NS', 'DIRL.NS', 'DIAPOWER.NS', 'DHANI.NS', 'DELTIC.NS', 'E2ERAIL.NS', 'DIVYADHAN.NS', 'DHFL.NS', 'DHANSA.NS', 'DHARARAIL.NS', 'DOLPHINOFF.NS', 'DFMFOODS.NS', 'DHANILOANS.NS', 'DHARIWAL.NS']: possibly delisted; no timezone found
+['DQE.NS', 'DHARSUGAR.NS']: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+[6/24] chunk 500: +103127 rows, 16 empty
+$ESSDEE.NS: possibly delisted; no timezone found
+$EQUITAS.NS: possibly delisted; no timezone found
+$FOCE.NS: possibly delisted; no timezone found
+$EMCO.NS: possibly delisted; no timezone found
+$FRESHARA.NS: possibly delisted; no timezone found
+$FOURTHDIM.NS: possibly delisted; no timezone found
+$FSC.NS: possibly delisted; no timezone found
+$GALLISPAT.NS: possibly delisted; no timezone found
+$ELGNZ.NS: possibly delisted; no timezone found
+$ENVIRO.NS: possibly delisted; no timezone found
+$EPWINDIA.NS: possibly delisted; no timezone found
+$FEDDERELEC.NS: possibly delisted; no price data found  (1d 2020-06-01 -> 2026-07-01)
+$EXCELLENT.NS: possibly delisted; no timezone found
+$EMAPARTNER.NS: possibly delisted; no timezone found
+
+14 Failed downloads:
+['ESSDEE.NS', 'EQUITAS.NS', 'FOCE.NS', 'EMCO.NS', 'FRESHARA.NS', 'FOURTHDIM.NS', 'FSC.NS', 'GALLISPAT.NS', 'ELGNZ.NS', 'ENVIRO.NS', 'EPWINDIA.NS', 'EXCELLENT.NS', 'EMAPARTNER.NS']: possibly delisted; no timezone found
+['FEDDERELEC.NS']: possibly delisted; no price data found  (1d 2020-06-01 -> 2026-07-01)
+[7/24] chunk 600: +99035 rows, 14 empty
+$GML.NS: possibly delisted; no timezone found
+$GAMMONIND.NS: possibly delisted; no timezone found
+$GANESHIN.NS: possibly delisted; no timezone found
+$GSPL.NS: possibly delisted; no price data found  (1d 2020-06-01 -> 2026-07-01)
+$GENXAI.NS: possibly delisted; no timezone found
+$GSCLCEMENT.NS: possibly delisted; no timezone found
+$GBGLOBAL.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$GREENLEAF.NS: possibly delisted; no timezone found
+
+8 Failed downloads:
+['GML.NS', 'GAMMONIND.NS', 'GANESHIN.NS', 'GENXAI.NS', 'GSCLCEMENT.NS', 'GREENLEAF.NS']: possibly delisted; no timezone found
+['GSPL.NS']: possibly delisted; no price data found  (1d 2020-06-01 -> 2026-07-01)
+['GBGLOBAL.NS']: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+[8/24] chunk 700: +115212 rows, 8 empty
+$HINDNATGLS.NS: possibly delisted; no timezone found
+$GUJNREDVR.NS: possibly delisted; no timezone found
+$GURUNANAK.NS: possibly delisted; no timezone found
+$IBUCCREDIT.NS: possibly delisted; no timezone found
+$GUJNRECOKE.NS: possibly delisted; no timezone found
+$HDFC.NS: possibly delisted; no timezone found
+$HPTL.NS: possibly delisted; no timezone found
+$HINDMOTORS.NS: possibly delisted; no price data found  (1d 2020-06-01 -> 2026-07-01)
+$HINDSYNTEX.NS: possibly delisted; no timezone found
+$HIGHGROUND.NS: possibly delisted; no timezone found
+
+10 Failed downloads:
+['HINDNATGLS.NS', 'GUJNREDVR.NS', 'GURUNANAK.NS', 'IBUCCREDIT.NS', 'GUJNRECOKE.NS', 'HDFC.NS', 'HPTL.NS', 'HINDSYNTEX.NS', 'HIGHGROUND.NS']: possibly delisted; no timezone found
+['HINDMOTORS.NS']: possibly delisted; no price data found  (1d 2020-06-01 -> 2026-07-01)
+[9/24] chunk 800: +121426 rows, 10 empty
+$IEL.NS: possibly delisted; no timezone found
+$ISEC.NS: possibly delisted; no timezone found
+$INDUSFILA.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$IWEL.NS: possibly delisted; no timezone found
+$INFLUX.NS: possibly delisted; no timezone found
+$IDFC.NS: possibly delisted; no timezone found
+$INDSWFTLTD.NS: possibly delisted; no timezone found
+$ISMTLTD.NS: possibly delisted; no timezone found
+$INNOMET.NS: possibly delisted; no timezone found
+$IWARE.NS: possibly delisted; no timezone found
+$INVICTA.NS: possibly delisted; no timezone found
+$INOXLEISUR.NS: possibly delisted; no timezone found
+
+12 Failed downloads:
+['IEL.NS', 'ISEC.NS', 'IWEL.NS', 'INFLUX.NS', 'IDFC.NS', 'INDSWFTLTD.NS', 'ISMTLTD.NS', 'INNOMET.NS', 'IWARE.NS', 'INVICTA.NS', 'INOXLEISUR.NS']: possibly delisted; no timezone found
+['INDUSFILA.NS']: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+[10/24] chunk 900: +110811 rows, 12 empty
+$JAYBEE.NS: possibly delisted; no timezone found
+$KATARIA.NS: possibly delisted; no timezone found
+$JMCPROJECT.NS: possibly delisted; no timezone found
+$JMTAUTOLTD.NS: possibly delisted; no timezone found
+$JAYESH.NS: possibly delisted; no timezone found
+$JAINIK.NS: possibly delisted; no timezone found
+$JSWISPL.NS: possibly delisted; no timezone found
+$JUBLINDS.NS: possibly delisted; no timezone found
+$JBFIND.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$JVLAGRO.NS: possibly delisted; no timezone found
+$JSLHISAR.NS: possibly delisted; no timezone found
+$JYOTIGLOBL.NS: possibly delisted; no timezone found
+$JPASSOCIAT.NS: possibly delisted; no timezone found
+
+13 Failed downloads:
+['JAYBEE.NS', 'KATARIA.NS', 'JMCPROJECT.NS', 'JMTAUTOLTD.NS', 'JAYESH.NS', 'JAINIK.NS', 'JSWISPL.NS', 'JUBLINDS.NS', 'JVLAGRO.NS', 'JSLHISAR.NS', 'JYOTIGLOBL.NS', 'JPASSOCIAT.NS']: possibly delisted; no timezone found
+['JBFIND.NS']: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+[11/24] chunk 1000: +108827 rows, 13 empty
+$KHAITANELE.NS: possibly delisted; no timezone found
+$KSERASERA.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$KSK.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$LAKSHYA.NS: possibly delisted; no timezone found
+$KKJEWELS.NS: possibly delisted; no timezone found
+$KUNDANMM.NS: possibly delisted; no timezone found
+$KWALITY.NS: possibly delisted; no timezone found
+$LEEL.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$KSOILS.NS: Data doesn't exist for startDate = 1590984000, endDate = 1782878400
+$LAKSHMIEFL.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$KEN.NS: possibly delisted; no timezone found
+
+11 Failed downloads:
+['KHAITANELE.NS', 'LAKSHYA.NS', 'KKJEWELS.NS', 'KUNDANMM.NS', 'KWALITY.NS', 'KEN.NS']: possibly delisted; no timezone found
+['KSERASERA.NS', 'KSK.NS', 'LEEL.NS', 'LAKSHMIEFL.NS']: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+['KSOILS.NS']: Data doesn't exist for startDate = 1590984000, endDate = 1782878400
+[12/24] chunk 1100: +109235 rows, 11 empty
+$MAXVOLT.NS: possibly delisted; no timezone found
+$MARUSHIKA.NS: possibly delisted; no timezone found
+$MEGH.NS: possibly delisted; no timezone found
+$MAXVIL.NS: possibly delisted; no timezone found
+$MANGCHEFER.NS: possibly delisted; no timezone found
+$LUMAXAUTO.NS: possibly delisted; no price data found  (1d 2020-06-01 -> 2026-07-01)
+$MAFATLAFIN.NS: possibly delisted; no timezone found
+$MAYASHEEL.NS: possibly delisted; no timezone found
+
+8 Failed downloads:
+['MAXVOLT.NS', 'MARUSHIKA.NS', 'MEGH.NS', 'MAXVIL.NS', 'MANGCHEFER.NS', 'MAFATLAFIN.NS', 'MAYASHEEL.NS']: possibly delisted; no timezone found
+['LUMAXAUTO.NS']: possibly delisted; no price data found  (1d 2020-06-01 -> 2026-07-01)
+[13/24] chunk 1200: +112687 rows, 8 empty
+$MINDTREE.NS: possibly delisted; no timezone found
+$NARMADASUG.NS: possibly delisted; no timezone found
+$NATNLSTEEL.NS: possibly delisted; no timezone found
+$MPEL.NS: possibly delisted; no timezone found
+$MIEL.NS: possibly delisted; no timezone found
+$MOBILISE.NS: possibly delisted; no timezone found
+$MYMUDRA.NS: possibly delisted; no timezone found
+$NAGAROIL.NS: possibly delisted; no timezone found
+$NAMOEWASTE.NS: possibly delisted; no timezone found
+$MUKANDENGG.NS: possibly delisted; no timezone found
+$MGSL.NS: possibly delisted; no timezone found
+$MIC.NS: possibly delisted; no timezone found
+
+12 Failed downloads:
+['MINDTREE.NS', 'NARMADASUG.NS', 'NATNLSTEEL.NS', 'MPEL.NS', 'MIEL.NS', 'MOBILISE.NS', 'MYMUDRA.NS', 'NAGAROIL.NS', 'NAMOEWASTE.NS', 'MUKANDENGG.NS', 'MGSL.NS', 'MIC.NS']: possibly delisted; no timezone found
+[14/24] chunk 1300: +112908 rows, 12 empty
+$OCCL.NS: possibly delisted; no timezone found
+$OSELDEVICE.NS: possibly delisted; no timezone found
+$ONYX.NS: possibly delisted; no timezone found
+$NOESISIND.NS: possibly delisted; no timezone found
+$OPTIVALUE.NS: possibly delisted; no timezone found
+$NIKITA.NS: possibly delisted; no timezone found
+$PARAMATRIX.NS: possibly delisted; no timezone found
+$OBSCP.NS: possibly delisted; no timezone found
+$OPAL.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$NITINFIRE.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$NMSTEEL.NS: possibly delisted; no timezone found
+$OISL.NS: possibly delisted; no timezone found
+
+12 Failed downloads:
+['OCCL.NS', 'OSELDEVICE.NS', 'ONYX.NS', 'NOESISIND.NS', 'OPTIVALUE.NS', 'NIKITA.NS', 'PARAMATRIX.NS', 'OBSCP.NS', 'NMSTEEL.NS', 'OISL.NS']: possibly delisted; no timezone found
+['OPAL.NS', 'NITINFIRE.NS']: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+[15/24] chunk 1400: +106726 rows, 12 empty
+$POWERFUL.NS: possibly delisted; no timezone found
+$POCHIRAJU.NS: possibly delisted; no timezone found
+$PATILAUTOM.NS: possibly delisted; no timezone found
+$POSITRON.NS: possibly delisted; no timezone found
+$PRABHAT.NS: possibly delisted; no timezone found
+$PRIMECAB.NS: possibly delisted; no timezone found
+$PINCON.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$PEL.NS: possibly delisted; no timezone found
+$PROSEED.NS: possibly delisted; no timezone found
+$PRESSMN.NS: possibly delisted; no timezone found
+$PIONDIST.NS: possibly delisted; no timezone found
+$PETRONENGG.NS: possibly delisted; no timezone found
+$PRANIK.NS: possibly delisted; no timezone found
+
+45 Failed downloads:
+['POWERFUL.NS', 'POCHIRAJU.NS', 'PATILAUTOM.NS', 'POSITRON.NS', 'PRABHAT.NS', 'PRIMECAB.NS', 'PEL.NS', 'PROSEED.NS', 'PRESSMN.NS', 'PIONDIST.NS', 'PETRONENGG.NS', 'PRANIK.NS']: possibly delisted; no timezone found
+['PINCON.NS']: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+['PRINCEPIPE.NS', 'PICCADIL.NS', 'POONAWALLA.NS', 'PRECWIRE.NS', 'PAYTM.NS', 'PENIND.NS', 'PRITIKA.NS', 'POLYPLEX.NS', 'PKTEA.NS', 'PREMIERENE.NS', 'PELATRO.NS', 'PHANTOMFX.NS', 'PRADIP.NS', 'PGHH.NS', 'PFOCUS.NS', 'POLICYBZR.NS', 'PFIZER.NS', 'PRITIKAUTO.NS', 'PENTAGOLD.NS', 'PERFECT.NS', 'PILITA.NS', 'PREMIERPOL.NS', 'PNCINFRA.NS', 'PROVOGE.NS', 'PREMIUM.NS', 'PDMJEPAPER.NS', 'PFS.NS', 'PREMEXPLN.NS', 'PROPEQUITY.NS', 'PLAZACABLE.NS', 'PRLIND.NS', 'PETRONET.NS']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+[16/24] chunk 1500: +67798 rows, 45 empty
+
+100 Failed downloads:
+['PSL.NS', 'PUSHPREALM.NS', 'RHIM.NS', 'RENUKA.NS', 'RAMANEWS.NS', 'RKFORGE.NS', 'PVP.NS', 'REFEX.NS', 'RADIOWALLA.NS', 'RML.NS', 'RAJOOENG.NS', 'RAMRAT.NS', 'RBS.NS', 'RAMCOSYS.NS', 'QMSMEDI.NS', 'RAMCOCEM.NS', 'RATEGAIN.NS', 'PUNJLLOYD.NS', 'RAJINDLTD.NS', 'REPL.NS', 'RICHA.NS', 'REGENCERAM.NS', 'RALLIS.NS', 'RELIANCE.NS', 'RBMINFRA.NS', 'RBA.NS', 'PYRAMID.NS', 'RITES.NS', 'RAIN.NS', 'REPCOHOME.NS', 'RAYMOND.NS', 'QPOWER.NS', 'RCF.NS', 'RNBDENIMS.NS', 'RAJRATAN.NS', 'RACLGEAR.NS', 'RFBL.NS', 'RADHIKAJWE.NS', 'PURVA.NS', 'RAPPID.NS', 'REMUS.NS', 'RELINFRA.NS', 'RADIANTCMS.NS', 'RAILTEL.NS', 'RMDRIP.NS', 'RESPONIND.NS', 'PVSL.NS', 'RAJMET.NS', 'PTL.NS', 'REMSONSIND.NS', 'RADICO.NS', 'RAJRAYON.NS', 'RILINFRA.NS', 'PTCIL.NS', 'ROCKINGDCE.NS', 'RANEENGINE.NS', 'RMCL.NS', 'RAMAPHO.NS', 'RELTD.NS', 'RISHABH.NS', 'PVRINOX.NS', 'RCOM.NS', 'RELAXO.NS', 'RAMSARUP.NS', 'QUADFUTURE.NS', 'RADAAN.NS', 'RGL.NS', 'QUESTLAB.NS', 'RBL.NS', 'PSB.NS', 'RKEC.NS', 'QUICKHEAL.NS', 'PSPPROJECT.NS', 'RBLBANK.NS', 'RAJPUTANA.NS', 'RAJESHEXPO.NS', 'RCDL.NS', 'RHFL.NS', 'RICOAUTO.NS', 'RELCAPITAL.NS', 'RATNAMANI.NS', 'RNFI.NS', 'RADIOCITY.NS', 'RNAVAL.NS', 'QUICKTOUCH.NS', 'RAMASTEEL.NS', 'RAJSREESUG.NS', 'RECLTD.NS', 'PRUDMOULI.NS', 'QUESS.NS', 'PTC.NS', 'PWL.NS', 'RAMKY.NS', 'PSRAJ.NS', 'RAMCOIND.NS', 'RANEHOLDIN.NS', 'RACE.NS', 'READYMIX.NS', 'RELIGARE.NS', 'REDINGTON.NS']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+[17/24] chunk 1600: +0 rows, 100 empty
+
+100 Failed downloads:
+['SAFEENTP.NS', 'SABTN.NS', 'SCI.NS', 'SAPPHIRE.NS', 'RVHL.NS', 'RPTECH.NS', 'SADHNANIQ.NS', 'ROTO.NS', 'SAKUMA.NS', 'SANSTAR.NS', 'SADBHAV.NS', 'SAMHI.NS', 'SANDUMA.NS', 'RPSGVENT.NS', 'SANGHIIND.NS', 'SANSERA.NS', 'SBC.NS', 'RTNPOWER.NS', 'SADHAV.NS', 'SAILIFE.NS', 'SAMBHV.NS', 'RPPINFRA.NS', 'SAHANA.NS', 'SANGANI.NS', 'SAREGAMA.NS', 'SANGHVIMOV.NS', 'SANGINITA.NS', 'SALZERELEC.NS', 'ROLLT.NS', 'SAKHTISUG.NS', 'SANOFICONR.NS', 'SANOFI.NS', 'ROSSTECH.NS', 'RSL.NS', 'SANGAMIND.NS', 'S&SPOWER.NS', 'SALONA.NS', 'SATTVAENGG.NS', 'ROHITFERRO.NS', 'ROLTA.NS', 'SATIA.NS', 'RUBYMILLS.NS', 'SALSTEEL.NS', 'ROSSARI.NS', 'SASKEN.NS', 'ROHLTD.NS', 'SAURASHCEM.NS', 'SAGCEM.NS', 'RUSHIL.NS', 'RSWM.NS', 'RUSTOMJEE.NS', 'SANGHVIFOR.NS', 'SATIN.NS', 'SAKAR.NS', 'SBCL.NS', 'ROYALARC.NS', 'SANATHAN.NS', 'SAIL.NS', 'SBGLP.NS', 'SABEVENTS.NS', 'SARLAPOLY.NS', 'RUPA.NS', 'SAMMAANCAP.NS', 'SCHAND.NS', 'ROUTE.NS', 'SARVESHWAR.NS', 'SAHAJSOLAR.NS', 'SANDHAR.NS', 'ROXHITECH.NS', 'SCHNEIDER.NS', 'RPGLIFE.NS', 'SAATVIKGL.NS', 'SBFC.NS', 'RUSHABEAR.NS', 'RSYSTEMS.NS', 'SATHAISPAT.NS', 'SBILIFE.NS', 'RTNINDIA.NS', 'SAMAY.NS', 'RUBICON.NS', 'SARTELE.NS', 'SAMPANN.NS', 'SAIPARENT.NS', 'RVNL.NS', 'SADBHIN.NS', 'SARDAEN.NS', 'SBIN.NS', 'SATECH.NS', 'ROSSELLIND.NS', 'SAAKSHI.NS', 'SAJHOTELS.NS', 'RPOWER.NS', 'RPPL.NS', 'SAHASRA.NS', 'RULKA.NS', 'SAFARI.NS', 'SALASAR.NS', 'RUCHIRA.NS', 'ROLEXRINGS.NS', 'SCHAEFFLER.NS']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+[18/24] chunk 1700: +0 rows, 100 empty
+
+98 Failed downloads:
+['SELLOWRAP.NS', 'SIDDHICOTS.NS', 'SIMPLEXINF.NS', 'SETCO.NS', 'SHIVAMAUTO.NS', 'SHYAMMETL.NS', 'SHK.NS', 'SKFINDUS.NS', 'SFL.NS', 'SHRADHA.NS', 'SCPL.NS', 'SIMBHALS.NS', 'SHEKHAWATI.NS', 'SHIVATEX.NS', 'SHREEKARNI.NS', 'SECURKLOUD.NS', 'SEYAIND.NS', 'SHIRPUR-G.NS', 'SJS.NS', 'SKIPPER.NS', 'SKFINDIA.NS', 'SILVERTUC.NS', 'SILGO.NS', 'SINTERCOM.NS', 'SITASHREE.NS', 'SHREDIGCEM.NS', 'SETL.NS', 'SHRIRAMFIN.NS', 'SMARTLINK.NS', 'SHEEL.NS', 'SHOPERSTOP.NS', 'SMARTWORKS.NS', 'SHAREINDIA.NS', 'SHLAKSHMI.NS', 'SEPC.NS', 'SIGNPOST.NS', 'SIEMENS.NS', 'SESHAPAPER.NS', 'SIGNORIA.NS', 'SCILAL.NS', 'SHIVASHRIT.NS', 'SICALLOG.NS', 'SICAL.NS', 'SERVICE.NS', 'SHREECEM.NS', 'SEMAC.NS', 'SIGACHI.NS', 'SHILPAMED.NS', 'SJLOGISTIC.NS', 'SHERA.NS', 'SKP.NS', 'SHAILY.NS', 'SINTEX.NS', 'SKUMARSYNF.NS', 'SDREAMS.NS', 'SILKY.NS', 'SHIGAN.NS', 'SECURCRED.NS', 'SMARTEN.NS', 'SDBL.NS', 'SJVN.NS', 'SEL.NS', 'SIGIND.NS', 'SGFL.NS', 'SIGMAADV.NS', 'SKIL.NS', 'SKMEGGPROD.NS', 'SHEMAROO.NS', 'SHRIRAMCIT.NS', 'SMLMAH.NS', 'SIKKO.NS', 'SHUBHSHREE.NS', 'SGIL.NS', 'SHREERAMA.NS', 'SHIVAMILLS.NS', 'SHREEJISPG.NS', 'SEAMECLTD.NS', 'SHARDAMOTR.NS', 'SKYGOLD.NS', 'SFML.NS', 'SEJALLTD.NS', 'SHAKTIPUMP.NS', 'SENCO.NS', 'SHANTI.NS', 'SERVOTECH.NS', 'SHAH.NS', 'SLONE.NS', 'SHANTIGEAR.NS', 'SITINET.NS', 'SHYAMCENT.NS', 'SIS.NS', 'SIGNATURE.NS', 'SHIVALIK.NS', 'SIRCA.NS', 'SIMPLEX.NS', 'SHARONBIO.NS', 'SHALBY.NS', 'SHRIPISTON.NS']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+[19/24] chunk 1800: +1788 rows, 98 empty
+
+100 Failed downloads:
+['STINDIA.NS', 'SUNTECH.NS', 'SUJANAUNI.NS', 'SPECTSTM.NS', 'STOVEKRAFT.NS', 'SUDARCOLOR.NS', 'SOLEX.NS', 'SUPREMEIND.NS', 'STARPAPER.NS', 'SOMICONVEY.NS', 'SONISOYA.NS', 'SSINFRA.NS', 'SUNPHARMA.NS', 'SPECIALITY.NS', 'STARHEALTH.NS', 'SONATSOFTW.NS', 'SPLIL.NS', 'SUMMITSEC.NS', 'STYL.NS', 'SPENCERS.NS', 'SREINFRA.NS', 'SSWL.NS', 'SUBEXLTD.NS', 'SUDARSCHEM.NS', 'SUNILHITEC.NS', 'SRF.NS', 'SUMIT.NS', 'SMLT.NS', 'SUNFLAG.NS', 'SOTL.NS', 'SUPREMEPWR.NS', 'STARTECK.NS', 'SOFTTECH.NS', 'SUPREMEENG.NS', 'SRIVASAVI.NS', 'SUNDRMFAST.NS', 'SONUINFRA.NS', 'SUMEETINDS.NS', 'SUPERSPIN.NS', 'SPCENET.NS', 'SPARC.NS', 'STYLAMIND.NS', 'SOTAC.NS', 'SRSLTD.NS', 'SSFL.NS', 'SUMICHEM.NS', 'SRPL.NS', 'SMPL.NS', 'SPMLINFRA.NS', 'SUPREME.NS', 'SPECTRUM.NS', 'SUNTECK.NS', 'SUNDARAM.NS', 'SOUTHWEST.NS', 'SUPREMEINF.NS', 'SPAL.NS', 'STUDIOLSD.NS', 'STLNETWORK.NS', 'SUNDROP.NS', 'STERTOOLS.NS', 'STANLEY.NS', 'SPPPOLY.NS', 'SUPRAJIT.NS', 'SOMANYCERA.NS', 'SUBROS.NS', 'STAR.NS', 'SOMATEX.NS', 'STARCEMENT.NS', 'STEELXIND.NS', 'STALLION.NS', 'SUNCLAY.NS', 'SPLPETRO.NS', 'SOBHA.NS', 'STYRENIX.NS', 'SUNLITE.NS', 'SUDEEPPHRM.NS', 'SPORTKING.NS', 'SONACOMS.NS', 'STRIDERS.NS', 'SORILINFRA.NS', 'STYLEBAAZA.NS', 'STEELCAS.NS', 'SUNDRMBRAK.NS', 'SUBAHOTELS.NS', 'SPIC.NS', 'SMVD.NS', 'SPCON.NS', 'SUBCAPCITY.NS', 'STERLINBIO.NS', 'SRIPIPES.NS', 'SOLARWORLD.NS', 'SSEGL.NS', 'SPCL.NS', 'SULA.NS', 'SRM.NS', 'SPTL.NS', 'SUPPETRO.NS', 'STLTECH.NS', 'SPUNWEB.NS', 'SOLARINDS.NS']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+[20/24] chunk 1900: +0 rows, 100 empty
+
+100 Failed downloads:
+['SYNCOM.NS', 'TANLA.NS', 'TARIL.NS', 'TATACONSUM.NS', 'TECHLABS.NS', 'TIMESCAN.NS', 'SWSOLAR.NS', 'SURYAROSNI.NS', 'TEAMGTY.NS', 'TEMBO.NS', 'TIGERLOGS.NS', 'SYNGENE.NS', 'TAJGVK.NS', 'TCI.NS', 'TICL.NS', 'SURANAT&P.NS', 'SUPRIYA.NS', 'TATAELXSI.NS', 'TARSONS.NS', 'TECHNOE.NS', 'THEJO.NS', 'TECHIN.NS', 'SWANCORP.NS', 'TATACOMM.NS', 'TCS.NS', 'TGL.NS', 'SWARAJENG.NS', 'SUVEN.NS', 'TBZ.NS', 'SUZLON.NS', 'SURANACORP.NS', 'TATACOFFEE.NS', 'SURAJEST.NS', 'SWIGGY.NS', 'THERMAX.NS', 'SYRMA.NS', 'TIL.NS', 'SURYODAY.NS', 'TASTYBITE.NS', 'TATASTEEL.NS', 'TECILCHEM.NS', 'TEAMLEASE.NS', 'THIRUSUGAR.NS', 'SURANASOL.NS', 'TBI.NS', 'TEJASNET.NS', 'TATASTLLP.NS', 'TCPLPACK.NS', 'SYSTANGO.NS', 'TCL.NS', 'TIINDIA.NS', 'TEXINFRA.NS', 'TARACHAND.NS', 'TATAMTRDVR.NS', 'SUYOG.NS', 'SYMPHONY.NS', 'SUULD.NS', 'TANTIACONS.NS', 'SYNOPTICS.NS', 'SWELECTES.NS', 'TATATECH.NS', 'TATASTLBSL.NS', 'TI.NS', 'TIMKEN.NS', 'TINNARUBR.NS', 'TDPOWERSYS.NS', 'TATVA.NS', 'TATACAP.NS', 'TEXRAIL.NS', 'TAPIFRUIT.NS', 'TALBROAUTO.NS', 'TAURIAN.NS', 'TIIL.NS', 'THOMASCOOK.NS', 'TARMAT.NS', 'TEGA.NS', 'TARAPUR.NS', 'TANKUP.NS', 'THEINVEST.NS', 'TEAMTECH.NS', 'TIRUMALCHM.NS', 'TIMETECHNO.NS', 'TFL.NS', 'SWARAJ.NS', 'THEMISMED.NS', 'THELEELA.NS', 'TEXMOPIPES.NS', 'TCNSBRANDS.NS', 'THYROCARE.NS', 'TECHM.NS', 'TECHERA.NS', 'SUVIDHAA.NS', 'TATAPOWER.NS', 'SWANDEF.NS', 'TARAJEWELS.NS', 'TIRUPATIFL.NS', 'TAC.NS', 'TECHD.NS', 'TIJARIA.NS', 'TERASOFT.NS']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+[21/24] chunk 2000: +0 rows, 100 empty
+
+90 Failed downloads:
+['TV18BRDCST.NS', 'UJAAS.NS', 'UJJIVAN.NS', 'UNITECH.NS', 'UCL.NS', 'VALECHAENG.NS', 'TREEHOUSE.NS', 'TROM.NS', 'TVSSCS.NS', 'UNOMINDA.NS', 'UNIVASTU.NS', 'UTTAMSUGAR.NS', 'UNIECOM.NS', 'VALUEIND.NS', 'TVSHLTD.NS', 'UTKAL.NS', 'TULSI.NS', 'TRIVENI.NS', 'VALIANTORG.NS', 'URAVIDEF.NS', 'USHAFIN.NS', 'TRENT.NS', 'USK.NS', 'VADILALIND.NS', 'TVSELECT.NS', 'TRANSTEEL.NS', 'VAIBHAVGBL.NS', 'UCOBANK.NS', 'TNPL.NS', 'TITAN.NS', 'UNIHEALTH.NS', 'UNIPARTS.NS', 'TRU.NS', 'TRIGYN.NS', 'TUNWAL.NS', 'UNIVCABLES.NS', 'TVSMOTOR.NS', 'UFO.NS', 'UHTL.NS', 'TRF.NS', 'TRANSWORLD.NS', 'TOUCHWOOD.NS', 'TTKPRESTIG.NS', 'TRUALT.NS', 'TRANSWIND.NS', 'UNITDSPR.NS', 'UJJIVANSFB.NS', 'URJA.NS', 'TNPETRO.NS', 'UFBL.NS', 'TMB.NS', 'TRANSRAILL.NS', 'TOLINS.NS', 'TMCV.NS', 'TRITURBINE.NS', 'VAISHALI.NS', 'UNIMECH.NS', 'TITAGARH.NS', 'TRIDENT.NS', 'TPLPLASTEH.NS', 'UWCSL.NS', 'UMIYA-MRO.NS', 'UEL.NS', 'UBL.NS', 'ULTRACEMCO.NS', 'TORNTPHARM.NS', 'TREL.NS', 'UNIVPHOTO.NS', 'TTL.NS', 'V2RETAIL.NS', 'UCAL.NS', 'UMA.NS', 'UNIDT.NS', 'TVSSRICHAK.NS', 'UNIONBANK.NS', 'TRAVELFOOD.NS', 'TOTAL.NS', 'UTIAMC.NS', 'TRIDHYA.NS', 'TRACXN.NS', 'TTML.NS', 'UYFINCORP.NS', 'TRUST.NS', 'USHAMART.NS', 'UGARSUGAR.NS', 'UDAICEMENT.NS', 'UNICHEMLAB.NS', 'TVTODAY.NS', 'UGROCAP.NS', 'TREJHARA.NS']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+[22/24] chunk 2100: +12709 rows, 90 empty
+
+89 Failed downloads:
+['VOLERCAR.NS', 'VISESHINFO.NS', 'VERTOZ.NS', 'VSTTILLERS.NS', 'VINSYS.NS', 'WALCHANNAG.NS', 'VRLLOG.NS', 'VERANDA.NS', 'VIDEOIND.NS', 'WELENT.NS', 'WAAREEENER.NS', 'VIJSHAN.NS', 'VISHNUINFR.NS', 'VSSL.NS', 'VISHWARAJ.NS', 'VISHNU.NS', 'WEWIN.NS', 'VMSTMT.NS', 'WINSOL.NS', 'WINDMACHIN.NS', 'VMART.NS', 'WAKEFIT.NS', 'VSCL.NS', 'VBL.NS', 'VISUINTL.NS', 'VMARCIND.NS', 'WOL3D.NS', 'VINATIORGA.NS', 'VEEDOL.NS', 'WEALTH.NS', 'VIMTALABS.NS', 'VISHWAS.NS', 'VGL.NS', 'WELSPUNLIV.NS', 'WAAREERTL.NS', 'WIPRO.NS', 'VEDL.NS', 'VLEGOV.NS', 'WHEELS.NS', 'VIPIND.NS', 'VINDHYATEL.NS', 'VHL.NS', 'VENTIVE.NS', 'VIKASLIFE.NS', 'WOCKPHARMA.NS', 'VIPCLOTHNG.NS', 'WEBELSOLAR.NS', 'VITAL.NS', 'VOLTAMP.NS', 'VGINFOTECH.NS', 'WAAREEINDO.NS', 'VARDMNPOLY.NS', 'VDEAL.NS', 'VIRINCHI.NS', 'VASCONEQ.NS', 'WILLAMAGOR.NS', 'VIVIANA.NS', 'VSTL.NS', 'VIKASECO.NS', 'VENUSREM.NS', 'VISACHROME.NS', 'WABAG.NS', 'WEL.NS', 'VARROC.NS', 'VIMALOIL.NS', 'VASA.NS', 'VICTORYEV.NS', 'VILINBIO.NS', 'VPRPL.NS', 'VHLTD.NS', 'VISDEM.NS', 'WEWORK.NS', 'WHITEFORCE.NS', 'VISAKAIND.NS', 'WINSOME.NS', 'VIVIDEL.NS', 'WELCORP.NS', 'WCIL.NS', 'VENKEYS.NS', 'VIPULLTD.NS', 'VICEROY.NS', 'VIJAYPD.NS', 'VRAJ.NS', 'VLINFRA.NS', 'WINNY.NS', 'VIESL.NS', 'VIJIFIN.NS', 'VIYASH.NS', 'VIKRAN.NS']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+[23/24] chunk 2200: +12558 rows, 89 empty
+
+14 Failed downloads:
+['ZICOM.NS', 'ZYLOG.NS', 'XLENERGY.NS', 'ZYDUSWELL.NS', 'ZOTA.NS', 'YESBANK.NS', 'YUDIZ.NS', 'YUKEN.NS', 'ZEEL.NS', 'ZEAL.NS', 'XPROINDIA.NS', 'ZEELEARN.NS', 'ZAGGLE.NS', 'ZFCVINDIA.NS']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+[24/24] chunk 2300: +23369 rows, 14 empty
