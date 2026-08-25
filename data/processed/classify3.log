@@ -9,3 +9,4 @@ Direct use of automatic function calling (AFC) in Models.generate_content is not
 [7/71] batch 6600: ok (63 wins)
 [8/71] batch 6800: ok (63 wins)
 [9/71] batch 7000: ok (90 wins)
+[10/71] batch 7200: ok (50 wins)
