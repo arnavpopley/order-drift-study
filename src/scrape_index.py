@@ -32,7 +32,7 @@ def load_done() -> set[str]:
 
 def fetch_day(session: creq.Session, d: date) -> pd.DataFrame | None:
     r = session.get(URL.format(d.strftime("%d%m%Y")),
-                    headers={"Referer": "https://www.nseindia.com/"}, timeout=30)
+                    headers={"Referer": "https://www.nseindia.com/"}, timeout=15)
     if r.status_code != 200:
         return None
     df = pd.read_csv(pd.io.common.StringIO(r.text))
@@ -64,7 +64,7 @@ def main() -> None:
     end = date.fromisoformat(args.end)
     done = load_done()
 
-    d, n_new, fail_streak = start, 0, 0
+    d, n_new, fail_streak, n_days = start, 0, 0, 0
     while d <= end:
         ds = d.isoformat()
         if ds not in done:
@@ -73,16 +73,22 @@ def main() -> None:
                 if rows is not None:
                     rows.to_csv(OUT, mode="a", header=not OUT.exists(), index=False)
                     n_new += len(rows)
+                    time.sleep(SLEEP_S)
+                else:
+                    time.sleep(0.3)
                 fail_streak = 0
+                n_days += 1
+                if n_days % 50 == 0:
+                    print(f"progress: {ds} (+{n_new} rows)", flush=True)
             except Exception as e:
                 fail_streak += 1
-                print(f"{ds}: error {str(e)[:80]}")
+                print(f"{ds}: error {str(e)[:80]}", flush=True)
+                time.sleep(SLEEP_S)
                 if fail_streak >= MAX_CONSEC_FAILS:
                     wait = min(60 * fail_streak, 600)
-                    print(f"{fail_streak} consecutive failures; cooling down {wait}s, new session")
+                    print(f"{fail_streak} consecutive failures; cooling down {wait}s, new session", flush=True)
                     time.sleep(wait)
                     s = creq.Session(impersonate="chrome")
-            time.sleep(SLEEP_S)
         d += timedelta(days=1)
 
     if OUT.exists():

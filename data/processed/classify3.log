@@ -10,3 +10,16 @@ Direct use of automatic function calling (AFC) in Models.generate_content is not
 [8/71] batch 6800: ok (63 wins)
 [9/71] batch 7000: ok (90 wins)
 [10/71] batch 7200: ok (50 wins)
+[11/71] batch 7400: ok (89 wins)
+[12/71] batch 7600: ok (76 wins)
+[13/71] batch 7800: ok (69 wins)
+batch 8000 attempt 1 failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman; retry 15s
+[14/71] batch 8000: ok (67 wins)
+[15/71] batch 8200: ok (54 wins)
+[16/71] batch 8400: ok (59 wins)
+[17/71] batch 8600: ok (70 wins)
+[18/71] batch 8800: ok (65 wins)
+[19/71] batch 9000: ok (63 wins)
+[20/71] batch 9400: ok (71 wins)
+batch 9600 attempt 1 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 15s
+batch 9600 attempt 2 failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ; retry 30s
