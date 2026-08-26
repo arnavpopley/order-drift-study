@@ -1,0 +1,81 @@
+2335 symbols in 24 chunks, 4 to fetch
+$READYMIX.NS: possibly delisted; no timezone found
+$PSRAJ.NS: possibly delisted; no timezone found
+$RAJRAYON.NS: possibly delisted; no timezone found
+$RAMSARUP.NS: possibly delisted; no timezone found
+$RANEENGINE.NS: possibly delisted; no timezone found
+$RAJPUTANA.NS: possibly delisted; no timezone found
+$PUSHPREALM.NS: possibly delisted; no timezone found
+$RICHA.NS: possibly delisted; no timezone found
+$PUNJLLOYD.NS: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+$RBL.NS: possibly delisted; no timezone found
+$RNFI.NS: possibly delisted; no timezone found
+$RFBL.NS: possibly delisted; no timezone found
+$RAPPID.NS: possibly delisted; no timezone found
+$PSL.NS: possibly delisted; no timezone found
+$RAJINDLTD.NS: possibly delisted; no timezone found
+
+15 Failed downloads:
+['READYMIX.NS', 'PSRAJ.NS', 'RAJRAYON.NS', 'RAMSARUP.NS', 'RANEENGINE.NS', 'RAJPUTANA.NS', 'PUSHPREALM.NS', 'RICHA.NS', 'RBL.NS', 'RNFI.NS', 'RFBL.NS', 'RAPPID.NS', 'PSL.NS', 'RAJINDLTD.NS']: possibly delisted; no timezone found
+['PUNJLLOYD.NS']: Data doesn't exist for startDate = 1590949800, endDate = 1782844200
+[1/4] chunk 1600: +103764 rows, 15 empty
+$SANGHIIND.NS: possibly delisted; no price data found  (1d 2020-06-01 -> 2026-07-01)
+$ROLTA.NS: possibly delisted; no timezone found
+$RUSHABEAR.NS: possibly delisted; no timezone found
+$SAFEENTP.NS: possibly delisted; no timezone found
+$ROHITFERRO.NS: possibly delisted; no timezone found
+$SAJHOTELS.NS: possibly delisted; no timezone found
+$SAMAY.NS: possibly delisted; no timezone found
+$SAHASRA.NS: possibly delisted; no timezone found
+$ROYALARC.NS: possibly delisted; no timezone found
+$SABTN.NS: possibly delisted; no timezone found
+$SATECH.NS: possibly delisted; no timezone found
+$SANGHVIFOR.NS: possibly delisted; no timezone found
+$SATTVAENGG.NS: possibly delisted; no timezone found
+
+13 Failed downloads:
+['SANGHIIND.NS']: possibly delisted; no price data found  (1d 2020-06-01 -> 2026-07-01)
+['ROLTA.NS', 'RUSHABEAR.NS', 'SAFEENTP.NS', 'ROHITFERRO.NS', 'SAJHOTELS.NS', 'SAMAY.NS', 'SAHASRA.NS', 'ROYALARC.NS', 'SABTN.NS', 'SATECH.NS', 'SANGHVIFOR.NS', 'SATTVAENGG.NS']: possibly delisted; no timezone found
+[2/4] chunk 1700: +103016 rows, 13 empty
+$SUPPETRO.NS: possibly delisted; no timezone found
+$SORILINFRA.NS: possibly delisted; no timezone found
+$SRIPIPES.NS: possibly delisted; no timezone found
+$SUNTECH.NS: possibly delisted; no timezone found
+$SPPPOLY.NS: possibly delisted; no timezone found
+$SPUNWEB.NS: possibly delisted; no timezone found
+$STRIDERS.NS: possibly delisted; no timezone found
+$STERLINBIO.NS: possibly delisted; no timezone found
+$SREINFRA.NS: possibly delisted; no timezone found
+$SSEGL.NS: possibly delisted; no timezone found
+$SUBCAPCITY.NS: possibly delisted; no timezone found
+$SUBAHOTELS.NS: possibly delisted; no timezone found
+$SUJANAUNI.NS: possibly delisted; no timezone found
+$SUNILHITEC.NS: possibly delisted; no timezone found
+$SUNLITE.NS: possibly delisted; no timezone found
+$STUDIOLSD.NS: possibly delisted; no timezone found
+$SPCON.NS: possibly delisted; no timezone found
+$SMPL.NS: possibly delisted; no timezone found
+$STINDIA.NS: possibly delisted; no timezone found
+
+19 Failed downloads:
+['SUPPETRO.NS', 'SORILINFRA.NS', 'SRIPIPES.NS', 'SUNTECH.NS', 'SPPPOLY.NS', 'SPUNWEB.NS', 'STRIDERS.NS', 'STERLINBIO.NS', 'SREINFRA.NS', 'SSEGL.NS', 'SUBCAPCITY.NS', 'SUBAHOTELS.NS', 'SUJANAUNI.NS', 'SUNILHITEC.NS', 'SUNLITE.NS', 'STUDIOLSD.NS', 'SPCON.NS', 'SMPL.NS', 'STINDIA.NS']: possibly delisted; no timezone found
+[3/4] chunk 1900: +99630 rows, 19 empty
+$TECHD.NS: possibly delisted; no timezone found
+$TARAJEWELS.NS: possibly delisted; no timezone found
+$TATACOFFEE.NS: possibly delisted; no timezone found
+$SYNCOM.NS: possibly delisted; no timezone found
+$TATASTLLP.NS: possibly delisted; no timezone found
+$TATASTLBSL.NS: possibly delisted; no timezone found
+$TANKUP.NS: possibly delisted; no timezone found
+$TATAMTRDVR.NS: possibly delisted; no timezone found
+$TANTIACONS.NS: possibly delisted; no timezone found
+$TAURIAN.NS: possibly delisted; no timezone found
+$TECHERA.NS: possibly delisted; no timezone found
+$SURANACORP.NS: possibly delisted; no timezone found
+$TEAMTECH.NS: possibly delisted; no timezone found
+$TCNSBRANDS.NS: possibly delisted; no timezone found
+$THIRUSUGAR.NS: possibly delisted; no timezone found
+
+15 Failed downloads:
+['TECHD.NS', 'TARAJEWELS.NS', 'TATACOFFEE.NS', 'SYNCOM.NS', 'TATASTLLP.NS', 'TATASTLBSL.NS', 'TANKUP.NS', 'TATAMTRDVR.NS', 'TANTIACONS.NS', 'TAURIAN.NS', 'TECHERA.NS', 'SURANACORP.NS', 'TEAMTECH.NS', 'TCNSBRANDS.NS', 'THIRUSUGAR.NS']: possibly delisted; no timezone found
+[4/4] chunk 2000: +108452 rows, 15 empty

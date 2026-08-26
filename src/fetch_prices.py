@@ -67,6 +67,10 @@ def main() -> None:
             time.sleep(10)
             continue
         got = set(part["symbol"]) if not part.empty else set()
+        if part.empty:
+            print(f"[{n + 1}/{len(todo_idx)}] chunk {i}: EMPTY - not saved", flush=True)
+            time.sleep(15)
+            continue
         part.to_parquet(OUTDIR / f"chunk_{i // args.chunk:04d}.parquet",
                         engine="pyarrow", index=False)
         missing = [t[:-3] for t in chunk if t[:-3] not in got]

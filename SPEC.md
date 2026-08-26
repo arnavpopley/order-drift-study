@@ -143,3 +143,10 @@ coverage, single-regime sample.
   250** to size-match the universe; Midcap-150 variant demoted to robustness.
   Amended before any returns were computed. Model name in classifier updated
   gemini-2.5-flash → gemini-3.6-flash (old model retired for new API keys).
+- 2026-08-26 — Price panel: yfinance adjusted closes chosen as bulk primary
+  (bhavcopy retained for validation + raw-close needs); validated n=52 obs,
+  median |diff| 0.54%, residuals fully explained by dividends/splits
+  (results/tables/price_validation.csv). Materiality market caps must use
+  **raw close × shares-outstanding-as-of-event**: shares_current divided by
+  the product of split/bonus factors from corp_actions with ex-date after
+  the event. Unparsed action ratios get flagged for manual resolution.

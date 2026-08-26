@@ -1,0 +1,16 @@
+2335 symbols, 2335 to query
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ACLGATI.NS"}}}
+[100/2335] (+87 new)
+[200/2335] (+174 new)
+[300/2335] (+266 new)
+[400/2335] (+352 new)
+[500/2335] (+437 new)
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DHANI.NS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DHANILOANS.NS"}}}
+[600/2335] (+523 new)
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EQUITAS.NS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FSC.NS"}}}
+[700/2335] (+608 new)
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GSCLCEMENT.NS"}}}
+[800/2335] (+702 new)
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HINDNATGLS.NS"}}}
