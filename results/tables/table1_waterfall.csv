@@ -1,0 +1,12 @@
+screen,n
+Classified order-win announcements,8954
+After one-event-per-symbol-day dedup,8206
+After bank/NBFC exclusion,8205
+After 60-trading-day contamination,3227
+After ±2d earnings exclusion,3101
+After ±30d split/bonus exclusion (events_prelim),3072
+With shares outstanding + price history,2278
+With machine order value,573
+"Market cap ₹500cr–₹25,000cr",389
+Materiality ≥10%,154
+Liquidity ≥₹50L median daily value (events_final),153

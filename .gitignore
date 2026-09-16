@@ -4,6 +4,8 @@ __pycache__/
 .env
 .ipynb_checkpoints/
 data/raw/*.csv
+data/raw/bhavcopy_cache/*.csv
+data/processed/*.log
 results/_scratch/
 .DS_Store
 data/raw/*.log

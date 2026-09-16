@@ -1,0 +1,108 @@
+\section{Methodology}
+\label{sec:method}
+
+\subsection{Institutional setting and event definition}
+\label{sec:events}
+
+Under SEBI's Listing Obligations and Disclosure Requirements (LODR),
+Regulation~30 requires listed companies to promptly disclose material
+contract wins and order awards to the stock exchange. We obtain every such
+Reg~30 filing from the NSE corporate-announcements archive for the period
+January~2021 to June~2026 and restrict the universe to AMFI smallcaps
+(prior-day market capitalisation between \rupee~500~crore and
+\rupee~25,000~crore; the Jul--Dec~2026 AMFI cut-off places the entire band
+below the \rupee~33,433~crore smallcap threshold). Each filing is
+machine-classified as a genuine order win with a stated contract value, and
+then screened by the following mechanical rules:
+
+\begin{itemize}
+  \item \emph{Materiality:} order value $\geq 10\%$ of prior-day market cap.
+  \item \emph{Exclusions:} events within $\pm2$ trading days of an earnings
+    announcement; within $\pm30$ calendar days of a stock split or bonus
+    issue; banks, NBFCs and other financial-sector firms (no ``orders'');
+    stocks with median daily traded value below \rupee~50~lakh over the
+    estimation window.
+\end{itemize}
+
+The event day $t=0$ is set by the filing timestamp: a filing before
+15:30~IST maps to the same trading day, otherwise to the next trading day.
+To avoid contamination from overlapping disclosures, we keep at most one
+event per symbol per trading day and drop any later qualifying
+announcement within 60 trading days of an earlier one for the same firm.
+
+\subsection{Abnormal return models}
+\label{sec:armodels}
+
+For each surviving event we align the stock's daily log returns to
+trading-day offsets $t=-10$ to $t=+60$ around $t=0$ and compute the
+abnormal return (AR) under three specifications.
+
+The \emph{primary, market-adjusted} specification (the only one used for
+the headline result, deliberately excluding days $0$--$1$ so the drift is
+not contaminated by the immediate reaction) is
+\begin{equation}
+  AR_{i,t} = R_{i,t} - R_{m,t},
+\end{equation}
+where $R_{m,t}$ is the daily return on the NIFTY~Smallcap~250 index, used
+as the size-matched market proxy.
+
+As robustness we also estimate a \emph{market model}
+\begin{equation}
+  R_{i,t} = \alpha_i + \beta_i R_{m,t} + \varepsilon_{i,t},
+\end{equation}
+with $\alpha_i,\beta_i$ estimated over the estimation window
+$[-130,-11]$, and a \emph{four-factor} model following the IIMA
+specification,
+\begin{equation}
+  R_{i,t} - R_{f,t} = \alpha_i + \beta_i(R_{m,t}-R_{f,t})
+    + s_i\,SMB_t + h_i\,HML_t + w_i\,WML_t + \varepsilon_{i,t},
+\end{equation}
+where $R_f$ is the risk-free rate and $SMB$, $HML$ and $WML$ are the
+size, value and momentum factors.
+
+Cumulative abnormal returns over $[t_1,t_2]$ are
+\begin{equation}
+  CAR_i(t_1,t_2) = \sum_{t=t_1}^{t_2} AR_{i,t},
+\end{equation}
+and the cross-sectional mean is the cumulative average abnormal return
+\begin{equation}
+  CAAR(t_1,t_2) = \frac{1}{N}\sum_{i=1}^{N} CAR_i(t_1,t_2).
+\end{equation}
+
+\subsection{Inference}
+\label{sec:inference}
+
+The significance of the primary result $CAAR[+2,+20]$ is assessed with a
+10,000-resample bootstrap: events are resampled with replacement, the CAAR
+recomputed for each draw, and the 95\% confidence interval taken as the
+2.5th and 97.5th percentiles of the bootstrap distribution. For the
+announcement-window reaction $CAR[0,+1]$ we additionally report the
+Boehmer--Masumeci--Poulsen (BMP, 2011) standardised test, which is robust
+to cross-sectional correlation induced by clustered event dates. Per event
+we compute the estimation-window standard deviation of ARs,
+$\hat\sigma_i$, and the standardised abnormal return
+$SAR_i = CAR_i(0,+1)/(\hat\sigma_i\sqrt{L})$ where $L=2$; the BMP
+statistic is
+\begin{equation}
+  t_{\mathit{BMP}} = \frac{\bar{SAR}}{\widehat{sd}(SAR)/\sqrt{N}}.
+\end{equation}
+
+\subsection{Pre-committed slices and strategy test}
+\label{sec:slices}
+
+To guard against data-mining, we report the primary CAAR only within three
+\emph{pre-committed} partitions of the event sample: market-cap terciles,
+order-size terciles (relative to market cap) and liquidity terciles. No
+other sub-sample splits are performed.
+
+The tradability of any drift is tested with a calendar-time portfolio: on
+each day we hold all stocks that announced an order win within the prior 20
+trading days, equally weighted, and regress the portfolio's daily excess
+return on the four factors. The intercept is the Newey--West (max lags
+20) alpha,
+\begin{equation}
+  r_{p,t} - R_{f,t} = \alpha + \bm\beta'\mathbf{F}_t + \varepsilon_{t},
+\end{equation}
+reported gross and net of round-trip trading costs of 50 and 75 basis
+points per side; an alpha that survives the higher cost is taken as
+evidence the drift is exploitable after frictions.

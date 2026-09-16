@@ -103,7 +103,7 @@ def main() -> None:
             if d not in cache_days:
                 cache_days[d] = bhavcopy_close(session, d)
                 import time as _t
-                _t.sleep(0.8)
+                _t.sleep(0.3)
             bclose = cache_days[d]
             if bclose is None:
                 continue

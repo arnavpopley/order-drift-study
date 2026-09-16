@@ -1,0 +1,12 @@
+metric,value
+n_sample,100.0
+seed,42.0
+tp,44.0
+fp,1.0
+fn,0.0
+tn,55.0
+precision,0.9778
+recall,1.0
+pct_values_within_5pct,100.0
+median_rel_value_error,0.0
+counterparty_agreement_pct,

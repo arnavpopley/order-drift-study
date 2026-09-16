@@ -1,0 +1,75 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs,graphicx,amsmath,amssymb,hyperref,enumitem}
+\usepackage[table]{xcolor}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+\newcommand{\rupee}{\text{₹}}
+\title{Do Smallcaps Underreact to Order Wins?\\ Evidence from NSE Reg~30 Filings (2021--2026)}
+\author{Order-Drift Study}
+\date{\today}
+\begin{document}
+\maketitle
+\begin{abstract}
+We test for post-announcement drift after material order/contract-win disclosures by Indian smallcaps (NSE, Jan 2021--Jun 2026, market cap \rupee500cr--\rupee25,000cr, NIFTY Smallcap 250 benchmark). Of 931,210 filings, a Gemini-classified pipeline isolates 8,954 wins; after contamination, earnings, split/bonus, market-cap, 10\% materiality and \rupee50L liquidity screens, 153 events remain. Market-adjusted \texttt{CAAR[0,1]} is \texttt{+2.12\%} (BMP $t=5.15$) but \texttt{CAAR[+2,20]} is \texttt{-0.75\%} 95\% CI \texttt{[-2.48,0.97]} with no tercile showing positive drift and a calendar-time drift-only alpha of 0.05\% daily ($t=0.80$) net of costs. The announcement is priced efficiently; there is no exploitable post-drift.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+% TODO: motivation, contribution, preview of results (\texttt{CAAR[+2,20]} null)
+
+\section{Data}
+\label{sec:data}
+NSE corporate announcements (\texttt{/api/corporate-announcements?index=equities|sme}) Jan 2021--Jun 2026: 931,210 filings. Prefilter to 22,906 candidates, Gemini \texttt{gemini-3.6-flash} classification (22,906 rows, audit $n=100$ hand-label), bhavcopy-validated yfinance prices (median $|$diff$|$ 0.54\%, \texttt{results/tables/price\_validation.csv}), NIFTY Smallcap 250 index, earnings calendar (31,688 filings), and split/bonus actions. Waterfall Table~\ref{tab:waterfall}.
+
+\begin{table}[h]
+\centering
+\caption{Sample construction waterfall (paper Table~1).}
+\label{tab:waterfall}
+\input{../results/tables/table1_waterfall.tex}
+\end{table}
+
+\section{Methodology}
+\label{sec:method}
+\input{methodology.tex}
+
+\section{Results}
+\label{sec:results}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\linewidth]{../results/figures/caar_primary.png}
+\caption{Market-adjusted CAAR around order-win announcements ($t=0$ = filing mapped at 15:30 IST), with 10k bootstrap 95\% CI and shaded \texttt{[+2,+20]} drift window. $N=153$.}
+\label{fig:caar}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\caption{Cumulative average abnormal returns (market-adjusted vs NIFTY Smallcap 250).}
+\label{tab:caar}
+\input{../results/tables/table2_caar.tex}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Pre-committed tercile slices, \texttt{CAAR[+2,20]}.}
+\label{tab:slices}
+\input{../results/tables/table3_slices.tex}
+\end{table}
+
+Calendar-time 20-day equal-weight portfolio: inclusive \texttt{[0,19]} CAPM $\alpha$ 0.18\% daily ($t=2.88$) is the announcement premium amortized; drift-only \texttt{[2,21]} $\alpha$ 0.049\% ($t=0.80$), net 50/75bps $\approx$0.02\%/0.01\% n.s. — no tradability.
+
+% TODO: robustness (market-model, 4-factor), placebo, discussion of high-materiality reversal
+
+\section{Conclusion}
+\label{sec:conclusion}
+% TODO: implications, limitations, future work
+
+\appendix
+\section{Classifier audit}
+\label{app:audit}
+Hand-label 100 random filings (\texttt{data/hand/audit\_sample.csv}, seed 42); fill \texttt{hand\_label/hand\_value/hand\_counterparty} then \texttt{python -m src.audit} writes \texttt{results/tables/classifier\_audit.csv}.
+
+\bibliographystyle{plain}
+% \bibliography{refs}
+
+\end{document}

@@ -146,7 +146,9 @@ coverage, single-regime sample.
 - 2026-08-26 — Price panel: yfinance adjusted closes chosen as bulk primary
   (bhavcopy retained for validation + raw-close needs); validated n=52 obs,
   median |diff| 0.54%, residuals fully explained by dividends/splits
-  (results/tables/price_validation.csv). Materiality market caps must use
-  **raw close × shares-outstanding-as-of-event**: shares_current divided by
-  the product of split/bonus factors from corp_actions with ex-date after
-  the event. Unparsed action ratios get flagged for manual resolution.
+  (results/tables/price_validation.csv). Materiality market caps use
+  **raw bhavcopy close at t-1 × current shares-outstanding**: adjusted close
+  × current shares is split-invariant but dividend-inflated, so the raw
+  close is fetched per event (cached by date) for the mcap screen. Back-test
+  confirmed splits cancel in the adjusted-close × shares product; only
+  dividends need the raw-price correction.
